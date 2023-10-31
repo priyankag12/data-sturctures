@@ -6,6 +6,8 @@ struct Node {
     struct Node* next;
 };
 
+struct Node* head=NULL;
+
 struct Node* createNode(int data) {
     struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));
     if (newNode == NULL) {
