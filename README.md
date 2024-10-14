@@ -7,15 +7,21 @@ These are basic data types provided by programming languages, such as integers, 
 ## Abstract Data Structures (ADTs):
 Abstract data structures are higher-level data structures that are not directly implemented in most programming languages but are created using primitive data types. They define a set of operations and rules for manipulating data but do not specify how the data is actually stored or implemented. Common abstract data structures include:
 
-1. Data Structures
+## 1. Data Structures
 Data structures are ways to organize and store data efficiently, enabling easy access, modification, and management.
 
-Arrays: Fixed-size sequential collections of elements of the same type.
-Linked Lists: A sequence of elements where each element points to the next one.
-Singly Linked List: Nodes point to the next node.
-Doubly Linked List: Nodes point to both next and previous nodes.
-Stacks: Follows the Last In, First Out (LIFO) principle. Operations include push, pop, and peek.
-Queues: Follows the First In, First Out (FIFO) principle. Operations include enqueue and dequeue.
+#### Arrays: 
+Fixed-size sequential collections of elements of the same type.
+#### Linked Lists:
+A sequence of elements where each element points to the next one.
+#### Singly Linked List: 
+Nodes point to the next node.
+#### Doubly Linked List: 
+Nodes point to both next and previous nodes.
+#### Stacks: 
+Follows the Last In, First Out (LIFO) principle. Operations include push, pop, and peek.
+#### Queues: 
+Follows the First In, First Out (FIFO) principle. Operations include enqueue and dequeue.
 Priority Queues: Elements are dequeued based on priority.
 Dequeue: Double-ended queue, allows insertion and removal from both ends.
 Hash Tables: Stores key-value pairs and allows for fast access using a hash function.
