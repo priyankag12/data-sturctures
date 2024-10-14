@@ -50,25 +50,47 @@ Algorithms are step-by-step procedures for solving problems or performing tasks 
 Repeatedly swaps adjacent elements if they are in the wrong order.
 #### Selection Sort: 
 Finds the minimum element from the unsorted portion and swaps it with the first unsorted element.
-Insertion Sort: Builds the sorted array by inserting elements into their correct position.
-Merge Sort: A divide-and-conquer algorithm that divides the array, sorts each part, and then merges them.
-Quick Sort: Another divide-and-conquer algorithm that picks a pivot and partitions the array into two sub-arrays around the pivot.
-Searching Algorithms:
-Linear Search: Sequentially checks each element until the target is found.
-Binary Search: Efficient search algorithm for sorted arrays that divides the array in half to find the target.
-Graph Algorithms:
-Depth-First Search (DFS): Explores as far as possible along each branch before backtracking.
-Breadth-First Search (BFS): Explores all neighbors at the current depth before moving to nodes at the next depth level.
-Dijkstra's Algorithm: Finds the shortest path between nodes in a weighted graph.
-Prim's and Kruskal's Algorithms: Used to find the Minimum Spanning Tree (MST) in a graph.
-Dynamic Programming (DP): Solves complex problems by breaking them down into overlapping subproblems and solving each just once, storing the results.
-Greedy Algorithms: Makes the locally optimal choice at each step with the hope of finding the global optimum.
-Divide and Conquer: Breaks a problem into smaller subproblems, solves each subproblem recursively, and combines the results.
-Backtracking: Tries all possible solutions and backtracks when a solution doesn't work.
-3. Common Techniques and Problems
-Recursion: A function that calls itself to solve a smaller instance of the problem.
-Memoization: Storing the results of expensive function calls to avoid redundant calculations.
-Bit Manipulation: Operations that manipulate individual bits to solve problems efficiently.
-Tree Traversals: Techniques to visit all nodes in a tree (Inorder, Preorder, Postorder).
-Graph Traversals: DFS and BFS for exploring graphs.
-Understanding and mastering these topics can help in problem-solving and optimizing your code for efficiency.
+#### Insertion Sort: 
+Builds the sorted array by inserting elements into their correct position.
+#### Merge Sort: 
+A divide-and-conquer algorithm that divides the array, sorts each part, and then merges them.
+#### Quick Sort: 
+Another divide-and-conquer algorithm that picks a pivot and partitions the array into two sub-arrays around the pivot.
+
+### Searching Algorithms:
+#### Linear Search: 
+Sequentially checks each element until the target is found.
+#### Binary Search: 
+Efficient search algorithm for sorted arrays that divides the array in half to find the target.
+
+### Graph Algorithms:
+#### Depth-First Search (DFS): 
+Explores as far as possible along each branch before backtracking.
+#### Breadth-First Search (BFS): 
+Explores all neighbors at the current depth before moving to nodes at the next depth level.
+#### Dijkstra's Algorithm: 
+Finds the shortest path between nodes in a weighted graph.
+#### Prim's and Kruskal's Algorithms: 
+Used to find the Minimum Spanning Tree (MST) in a graph.
+
+### Dynamic Programming (DP):
+Solves complex problems by breaking them down into overlapping subproblems and solving each just once, storing the results.
+#### Greedy Algorithms: 
+Makes the locally optimal choice at each step with the hope of finding the global optimum.
+#### Divide and Conquer: 
+Breaks a problem into smaller subproblems, solves each subproblem recursively, and combines the results.
+#### Backtracking: 
+Tries all possible solutions and backtracks when a solution doesn't work.
+
+## 3. Common Techniques and Problems
+#### Recursion: 
+A function that calls itself to solve a smaller instance of the problem.
+#### Memoization: 
+Storing the results of expensive function calls to avoid redundant calculations.
+#### Bit Manipulation: 
+Operations that manipulate individual bits to solve problems efficiently.
+#### Tree Traversals: 
+Techniques to visit all nodes in a tree (Inorder, Preorder, Postorder).
+#### Graph Traversals: 
+DFS and BFS for exploring graphs.
+
