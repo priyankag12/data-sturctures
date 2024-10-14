@@ -22,22 +22,34 @@ Nodes point to both next and previous nodes.
 Follows the Last In, First Out (LIFO) principle. Operations include push, pop, and peek.
 #### Queues: 
 Follows the First In, First Out (FIFO) principle. Operations include enqueue and dequeue.
-Priority Queues: Elements are dequeued based on priority.
-Dequeue: Double-ended queue, allows insertion and removal from both ends.
-Hash Tables: Stores key-value pairs and allows for fast access using a hash function.
-Trees: Hierarchical data structures with a root node, branches, and leaves.
-Binary Tree: Each node has up to two children.
-Binary Search Tree (BST): A binary tree where the left child is smaller and the right child is greater than the parent node.
-AVL Tree: A self-balancing BST.
-Heap: A special tree-based data structure that satisfies the heap property (min-heap or max-heap).
-Graphs: A collection of nodes (vertices) connected by edges. Graphs can be directed or undirected, weighted or unweighted.
+#### Priority Queues: 
+Elements are dequeued based on priority.
+#### Dequeue: 
+Double-ended queue, allows insertion and removal from both ends.
+#### Hash Tables: 
+Stores key-value pairs and allows for fast access using a hash function.
+#### Trees: 
+Hierarchical data structures with a root node, branches, and leaves.
+#### Binary Tree: 
+Each node has up to two children.
+#### Binary Search Tree (BST): 
+A binary tree where the left child is smaller and the right child is greater than the parent node.
+#### AVL Tree: 
+A self-balancing BST.
+#### Heap: 
+A special tree-based data structure that satisfies the heap property (min-heap or max-heap).
+#### Graphs: 
+A collection of nodes (vertices) connected by edges. Graphs can be directed or undirected, weighted or unweighted.
 Adjacency Matrix and Adjacency List are common ways to represent graphs.
-2. Algorithms
+
+## 2. Algorithms
 Algorithms are step-by-step procedures for solving problems or performing tasks efficiently.
 
-Sorting Algorithms:
-Bubble Sort: Repeatedly swaps adjacent elements if they are in the wrong order.
-Selection Sort: Finds the minimum element from the unsorted portion and swaps it with the first unsorted element.
+### Sorting Algorithms:
+#### Bubble Sort: 
+Repeatedly swaps adjacent elements if they are in the wrong order.
+#### Selection Sort: 
+Finds the minimum element from the unsorted portion and swaps it with the first unsorted element.
 Insertion Sort: Builds the sorted array by inserting elements into their correct position.
 Merge Sort: A divide-and-conquer algorithm that divides the array, sorts each part, and then merges them.
 Quick Sort: Another divide-and-conquer algorithm that picks a pivot and partitions the array into two sub-arrays around the pivot.
